@@ -58,7 +58,7 @@
       "comment" : "hidden rule or token"
     },
     {
-      "begin" : "^\\s*(\\w+)\\s*",
+      "begin" : "^\\s*([\\w-]+)\\s*",
       "end" : "(:|\\=|:\\=|::\\=)\\s",
       "patterns" : [
       	{ "include" : "$self"}

@@ -103,7 +103,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>^\s*(\w+)\s*</string>
+			<string>^\s*([\w-]+)\s*</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
