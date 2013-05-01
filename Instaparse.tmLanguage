@@ -42,7 +42,7 @@
 			<key>comment</key>
 			<string>Double quoted strings or characters</string>
 			<key>end</key>
-			<string>"</string>
+			<string> "</string>
 			<key>name</key>
 			<string>string.quoted.double.double-line.instaparse</string>
 		</dict>
@@ -142,9 +142,9 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>or</string>
+			<string>alternation and rule ending</string>
 			<key>match</key>
-			<string>(\|)|;</string>
+			<string>(\|)|;|\.</string>
 			<key>name</key>
 			<string>keyword.operator.instaparse</string>
 		</dict>

@@ -6,7 +6,7 @@
   "patterns" : [
     {
       "end" : "(?<=\\*\\))",
-      "begin" : "(?=\\(\\*)",
+      "begin" : "(?=\\(\\*)", 
       "name" : "comment.block.instaparse"
     },
     {
@@ -21,7 +21,7 @@
       "name" : "string.quoted.single.single-line.instaparse"
     },
     {
-      "end" : "\"",
+      "end" : " \"",
       "begin" : "\"",
       "comment" : "Double quoted strings or characters",
       "name" : "string.quoted.double.double-line.instaparse"
@@ -81,8 +81,8 @@
       "comment" : "rule name"
     },
     {
-      "match" : "(\\|)|;",
-      "comment" : "or",
+      "match" : "(\\|)|;|\\.",
+      "comment" : "alternation and rule ending",
       "name" : "keyword.operator.instaparse"
     },
     {
