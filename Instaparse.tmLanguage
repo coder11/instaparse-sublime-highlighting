@@ -42,7 +42,7 @@
 			<key>comment</key>
 			<string>Double quoted strings or characters</string>
 			<key>end</key>
-			<string> "</string>
+			<string>"</string>
 			<key>name</key>
 			<string>string.quoted.double.double-line.instaparse</string>
 		</dict>
@@ -64,7 +64,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>&lt;(\w+)&gt;</string>
+			<string>(&lt;(\w+)&gt;)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -97,7 +97,7 @@
 			<key>comment</key>
 			<string>hidden rule or token</string>
 			<key>end</key>
-			<string>(?&lt;=&gt;)</string>
+			<string>&gt;</string>
 			<key>name</key>
 			<string>keyword.control.twig.instaparse</string>
 		</dict>

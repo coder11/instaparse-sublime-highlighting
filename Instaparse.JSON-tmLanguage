@@ -21,7 +21,7 @@
       "name" : "string.quoted.single.single-line.instaparse"
     },
     {
-      "end" : " \"",
+      "end" : "\"",
       "begin" : "\"",
       "comment" : "Double quoted strings or characters",
       "name" : "string.quoted.double.double-line.instaparse"
@@ -35,7 +35,7 @@
       "comment" : "peg expression"
     },
     {
-      "begin" : "<(\\w+)>",
+      "begin" : "(<(\\w+)>)",
       "end" : "(:|\\=|:\\=|::\\=)\\s",
        "patterns" : [
         { "include" : "$self"}
@@ -53,7 +53,7 @@
     },
     {
       "begin" : "<",
-      "end"   : "(?<=>)",
+      "end"   : ">",
       "name"  : "keyword.control.twig.instaparse",
       "comment" : "hidden rule or token"
     },
