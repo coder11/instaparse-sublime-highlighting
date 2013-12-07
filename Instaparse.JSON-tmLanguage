@@ -52,18 +52,18 @@
       }
     },
     {
+      "begin" : "<'",
+      "end"   : "'>",
+      "name"  : "string.quoted.single.single-line.instaparse",
+      "comment" : "hidden rule or token with text inside"
+    },
+    {
       "begin" : "<",
       "end"   : ">",
       "name"  : "keyword.control.twig.instaparse",
       "comment" : "hidden rule or token"
     },
-    {
-      "begin" : "<'",
-      "end"   : "'>",
-      "name"  : "keyword.control.twig.instaparse",
-      "comment" : "hidden rule or token with text inside"
-    },
-    {
+        {
       "begin" : "^\\s*([\\w\\-%@]+)\\s*",
       "end" : "(:|\\=|:\\=|::\\=)\\s",
       "patterns" : [
